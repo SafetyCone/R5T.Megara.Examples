@@ -1,0 +1,4 @@
+R5T.Megara.Examples - Examples on the use of the Megara IFileSerializer<T> service.
+
+Goals
+

@@ -1,0 +1,4 @@
+R5T.Megara.Examples.Lib - A simple library project for the console-app R5T.Megara.Examples
+
+Goals
+
