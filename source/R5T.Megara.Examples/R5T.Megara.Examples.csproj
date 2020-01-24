@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Chalandri.DropboxRivetTestingData\source\R5T.Chalandri.DropboxRivetTestingData\R5T.Chalandri.DropboxRivetTestingData.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Evosmos.CDriveTemp\source\R5T.Evosmos.CDriveTemp\R5T.Evosmos.CDriveTemp.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Megara.TextSerializer\source\R5T.Megara.TextSerializer\R5T.Megara.TextSerializer.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Richmond\source\R5T.Richmond\R5T.Richmond.csproj" />
     <ProjectReference Include="..\R5T.Megara.Examples.Lib\R5T.Megara.Examples.Lib.csproj" />
   </ItemGroup>
 
