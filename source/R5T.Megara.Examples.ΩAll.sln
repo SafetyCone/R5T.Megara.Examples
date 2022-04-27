@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Examples", "R5T.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Examples.Lib", "R5T.Megara.Examples.Lib\R5T.Megara.Examples.Lib.csproj", "{042BD71D-AC53-490D-9F87-5C5C83C25B27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C3CF0FBE-2F56-4DA3-A373-AD27AD8E1BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{042BD71D-AC53-490D-9F87-5C5C83C25B27}.Release|x64.Build.0 = Release|Any CPU
 		{042BD71D-AC53-490D-9F87-5C5C83C25B27}.Release|x86.ActiveCfg = Release|Any CPU
 		{042BD71D-AC53-490D-9F87-5C5C83C25B27}.Release|x86.Build.0 = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|x64.Build.0 = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Debug|x86.Build.0 = Debug|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|x64.ActiveCfg = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|x64.Build.0 = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|x86.ActiveCfg = Release|Any CPU
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CB3DA99-6BE9-4F3D-8EB9-504C4316ECA9} = {C3CF0FBE-2F56-4DA3-A373-AD27AD8E1BBD}
 	EndGlobalSection
 EndGlobal
