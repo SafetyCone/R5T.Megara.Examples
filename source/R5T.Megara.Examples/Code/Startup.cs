@@ -25,7 +25,7 @@ namespace R5T.Megara.Examples
         {
             services
                 .AddSingleton<Program>()
-                .AddTextFileSerializer<List<string>, LinesTextSerializer>()
+                //.AddTextFileSerializer<List<string>, LinesTextSerializer>()
                 .AddTestingDataDirectoryContentPathsProvider()
                 .AddTemporaryDirectoryFilePathProvider()
                 ;
